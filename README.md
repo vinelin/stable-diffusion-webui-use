@@ -31,23 +31,23 @@ https://civitai.com/
 lora文件
 分两种情况
 ### 百度云旧版
-+确保已经安装 [Additional Networks extension](https://github.com/kohya-ss/sd-webui-additional-networks), 可以在extensions标签中确认。
-+安装好后重启Stable-diffusion
-+下载LoRA模型文件
-+放在 extensions/sd-webui-additional-networks/models/lora 文件夹
-+在 txt2img or img2img 标签, 下拉  Additional Networks 在页面最下方区域
-+确保已经启用
-+设置Model 1为你下载的lora模型
-+设置权重1到0.85作为一个好的开始，然后根据需要调整
+1. 确保已经安装 [Additional Networks extension](https://github.com/kohya-ss/sd-webui-additional-networks), 可以在extensions标签中确认。
+2. 安装好后重启Stable-diffusion
+3. 下载LoRA模型文件
+4. 放在 extensions/sd-webui-additional-networks/models/lora 文件夹
+5. 在 txt2img or img2img 标签, 下拉  Additional Networks 在页面最下方区域
+6. 确保已经启用
+7. 设置Model 1为你下载的lora模型
+8. 设置权重1到0.85作为一个好的开始，然后根据需要调整
 
 ### 去github自行下载新版
-+已经整合这个功能
-+下载lora模型
-+放在 models/lora 文件夹
-+Click on the show extra networks button under the Generate button (purple icon)
-+Go to the Lora tab and refresh if needed
-+Click on the one you want to apply, it will be added in the prompt
-+Make sure to adjust the weight, by default it's :1 which is usually to high
+1. 已经整合这个功能
+2. 下载lora模型
+3. 放在 models/lora 文件夹
+4. Click on the show extra networks button under the Generate button (purple icon)
+5. Go to the Lora tab and refresh if needed
+6. Click on the one you want to apply, it will be added in the prompt
+7. Make sure to adjust the weight, by default it's :1 which is usually to high
 
 ## 类型pt
 放在embeddings文件夹
