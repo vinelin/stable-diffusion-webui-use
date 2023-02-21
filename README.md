@@ -52,7 +52,7 @@ lora文件
 ## 类型pt
 放在embeddings文件夹
 
-
+## 注意
 可以查看是否安装成功
 ![image](https://user-images.githubusercontent.com/28559480/220238178-1abf455e-3449-490a-9982-fc45be6e8a77.png)
 
