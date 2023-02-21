@@ -21,14 +21,16 @@ https://civitai.com/
 
 如何使用各种模型具体教程：https://github.com/civitai/civitai/wiki/How-to-use-models
 下面是简述
-## 类型cpkt  模型
+## 模型
+![image](https://user-images.githubusercontent.com/28559480/220253410-d9ec216f-c0f0-43b4-98f1-49aad960c5ff.png)
 
 放入models\Stable-diffusion
 ## 名字中带有vae 美化模型
 放入models\VAE
 
-## 类型safetensors lora模型 类似于一个插件
+##  lora模型 类似于一个插件
 lora文件
+![image](https://user-images.githubusercontent.com/28559480/220253511-1e39615c-909f-4ada-8584-6bbe0276d22f.png)
 分两种情况
 ### 百度云旧版
 1. 确保已经安装 [Additional Networks extension](https://github.com/kohya-ss/sd-webui-additional-networks), 可以在extensions标签中确认。
