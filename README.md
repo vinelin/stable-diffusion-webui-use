@@ -5,9 +5,7 @@ stable diffusion webui 本体
 
 源：https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
-# 升级补丁（仅百度云下载需要）
-放入 根目录modules文件夹
-sd_models.py
+百度云版本和源版本区别是百度云版本SD版本更老，自带了一些模型,使用启动器更新下SD版本即可
 
 # 启动器
 放入根目录
@@ -31,21 +29,8 @@ https://civitai.com/
 ##  lora模型 类似于一个插件
 lora文件
 ![image](https://user-images.githubusercontent.com/28559480/220253511-1e39615c-909f-4ada-8584-6bbe0276d22f.png)
-分两种情况
-### 百度云旧版
-1. 确保已经安装 [Additional Networks extension](https://github.com/kohya-ss/sd-webui-additional-networks), 可以在extensions标签中确认。
-![image](https://user-images.githubusercontent.com/28559480/220244895-2cf11351-3be4-44eb-ac86-11f7cc1c974f.png)
-2. 安装好后重启Stable-diffusion
-3. 下载LoRA模型文件
-4. 放在 extensions/sd-webui-additional-networks/models/lora 文件夹
-这个路径有偏差 可以参考这里的提示
-![image](https://user-images.githubusercontent.com/28559480/220245005-f7d4c1c4-f6bc-49da-b2e6-b1a94311945a.png)
-5. 在 txt2img or img2img 标签, 下拉  Additional Networks 在页面最下方区域
-6. 确保已经启用
-7. 设置Model 1为你下载的lora模型
-8. 设置权重1到0.85作为一个好的开始，然后根据需要调整
 
-### 去github自行下载新版
+### 使用启动器更新下stable diffusion版本即可
 1. 已经整合这个功能
 2. 下载lora模型
 3. 放在 models/lora 文件夹
